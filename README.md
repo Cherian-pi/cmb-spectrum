@@ -9,3 +9,4 @@ the result with Planck 2018 bandpowers.
 
 This repository **does not** run MCMC or perform parameter inference. 
 It only visualizes the spectrum from one chosen parameter point.
+![CMB TT Spectrum](cmb_spectrum.png)
