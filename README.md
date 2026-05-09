@@ -30,10 +30,11 @@ the companion repo. Key EDE constraints from the Cardiff MSc thesis:
 
 | Parameter | Value |
 |-----------|-------|
-| H₀ | 69.6 km/s/Mpc |
-| f_EDE(z_c) | 0.083 |
-| log₁₀ z_c | 3.47 |
-| n | 2.95 |
+
+| $H_0$ | 69.56 ± 0.93 km/s/Mpc |
+| $f_\mathrm{EDE}(z_c)$ | 0.083 ± 0.024 |
+| $\log_{10} z_c$ | 3.47 ± 0.10 |
+| $n$ | 2.95 ± 0.24 |
 
 ---
 
