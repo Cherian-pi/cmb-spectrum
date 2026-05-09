@@ -58,10 +58,17 @@ planck_data_lo = Table.read(planck_file, hdu=1)
 plt.figure(figsize=(7,5))
 plt.errorbar(planck_data_lo['ELL'], planck_data_lo['D_ELL'],
              yerr=[planck_data_lo['ERRDOWN'], planck_data_lo['ERRUP']],
+<<<<<<< HEAD
              fmt='o', markersize=2, capsize=3, color='k')
 
 plt.errorbar(planck_data_hi['ELL'], planck_data_hi['D_ELL'],
              yerr=planck_data_hi['ERR'], fmt='o', markersize=2, capsize=3, color='k',
+=======
+             fmt='o', ms=3, color='k')
+
+plt.errorbar(planck_data_hi['ELL'], planck_data_hi['D_ELL'],
+             yerr=planck_data_hi['ERR'], fmt='o', ms=3, color='k',
+>>>>>>> 9816eb8 (Initial commit: CMB TT spectrum from EDE posterior parameters)
              label="Planck 2018 TT (data)")
 
 plt.plot(l_theory, DTT_theory, lw=2, label="EarlyQuintessence (TT)")
